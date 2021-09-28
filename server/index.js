@@ -45,7 +45,7 @@ app.get("/skills", (req, res) => {
 			rating: 10,
 		},
 		{
-			id: 4,
+			id: 5,
 			skill: "Threat Modelling",
 			rating: 10,
 		},
