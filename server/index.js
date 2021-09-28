@@ -26,27 +26,27 @@ app.get("/skills", (req, res) => {
 	res.send([
 		{
 			id: 1,
-			technology: "React",
+			skill: "React",
 			rating: 7,
 		},
 		{
 			id: 2,
-			technology: "Node/Express",
+			skill: "Node/Express",
 			rating: 6,
 		},
 		{
 			id: 3,
-			technology: "Redux",
+			skill: "Redux",
 			rating: 8,
 		},
 		{
 			id: 4,
-			technology: "CSS/Sass",
+			skill: "CSS/Sass",
 			rating: 10,
 		},
 		{
 			id: 4,
-			technology: "Threat Modelling",
+			skill: "Threat Modelling",
 			rating: 10,
 		},
 	]);

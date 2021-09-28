@@ -24,7 +24,7 @@ const Skills = () => {
 				<ul className="list-group list-group-flush">
 					{skills.map((item) => (
 						<li className="list-group-item" key={item.id}>
-							{item.technology}
+							{item.skill}
 							<p>Rating : {item.rating}</p>
 						</li>
 					))}
