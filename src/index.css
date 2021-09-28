@@ -1,0 +1,8 @@
+body {
+	font-family: "Open Sans Condensed";
+}
+.card-container {
+	display: flex;
+	justify-content: center;
+	margin: 50px auto;
+}
